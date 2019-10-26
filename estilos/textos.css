@@ -1,0 +1,10 @@
+p, table, tr, th {
+    font-family:Georgia, 'Times New Roman', Times, serif; /* specifity = 2 */
+    font-size: 14pt; /* specifity = 2 */
+    color: black; /* specifity = 101 */
+    background-color: #ECD7FD; /* specifity = 101 */
+}
+
+p::first-letter {
+    font-size: 18pt; /* specifity = 2 */
+}
